@@ -1,0 +1,20 @@
+{
+	"servers": {
+		"Dataverse MCP": {
+			"url": "https://<YOUR_ORG_NAME_HERE>.crm6.dynamics.com/api/mcp",
+			"type": "http"
+		}, 
+		"fabric-rti-mcp": {
+                "command": "uvx",
+                "args": [
+                    "microsoft-fabric-rti-mcp"
+                ],
+                "env": {
+                    "KUSTO_SERVICE_URI": "<APP INSIGHTS URL HERE>",
+                    "KUSTO_SERVICE_DEFAULT_DB": "cs-demo-appinsights",
+                    "FABRIC_API_BASE": "https://api.fabric.microsoft.com/v1"
+                }
+		}
+	},
+	"inputs": []
+}

@@ -1,0 +1,136 @@
+{
+  "version": 2,
+  "dgSpecHash": "6zRjrR4WT40=",
+  "success": true,
+  "projectFilePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+  "expectedPackageFiles": [
+    "/Users/remy/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.9/microsoft.extensions.caching.abstractions.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.caching.memory/3.1.9/microsoft.extensions.caching.memory.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.configuration/3.1.9/microsoft.extensions.configuration.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.9/microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.configuration.binder/3.1.9/microsoft.extensions.configuration.binder.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.9/microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.9/microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.http/3.1.9/microsoft.extensions.http.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.logging/3.1.9/microsoft.extensions.logging.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.9/microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.objectpool/8.0.10/microsoft.extensions.objectpool.8.0.10.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.options/3.1.9/microsoft.extensions.options.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.extensions.primitives/3.1.9/microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.identity.client/4.84.2/microsoft.identity.client.4.84.2.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.identity.client.extensions.msal/4.84.2/microsoft.identity.client.extensions.msal.4.84.2.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.powerplatform.dataverse.client/1.2.26/microsoft.powerplatform.dataverse.client.1.2.26.nupkg.sha512",
+    "/Users/remy/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/Users/remy/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.configuration.configurationmanager/6.0.0/system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.reflection.typeextensions/4.7.0/system.reflection.typeextensions.4.7.0.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.runtime.caching/4.7.0/system.runtime.caching.4.7.0.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.security.cryptography.pkcs/8.0.1/system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.security.cryptography.xml/8.0.2/system.security.cryptography.xml.8.0.2.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.security.permissions/6.0.0/system.security.permissions.6.0.0.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.servicemodel.http/8.1.2/system.servicemodel.http.8.1.2.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.servicemodel.primitives/8.1.2/system.servicemodel.primitives.8.1.2.nupkg.sha512",
+    "/Users/remy/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-23rf-6693-g89p",
+      "projectPath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-37gx-xxp4-5rgx",
+      "projectPath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-6588-8gv4-xfgh",
+      "projectPath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-8q5v-6pqq-x66h",
+      "projectPath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-cvvh-rhrc-wg4q",
+      "projectPath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-g8r8-53c2-pm3f",
+      "projectPath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-mmjf-rqrv-855v",
+      "projectPath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-w3x6-4m5h-cxqf",
+      "projectPath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/remy/dataverse-bulkload/DvBulkLoad.csproj",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
