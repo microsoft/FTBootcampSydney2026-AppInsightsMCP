@@ -1,9 +1,11 @@
 ## Dataverse App Insights + Dataverse MCP demo tools
 
-- agents-and-mcp-example contains the three agents used in the demo
+- agents-and-mcp-example contains the three agents used in the demo as well as the mcp configuration
     - DV Performance Analyst takes a look at Dataverse perf (UCI+API), retrieving the user's IDs for query via DV MCP
     - Plugin Performance Agent looks at plugin performance and compares to source code
     - Plugin Reliability Agent looks at plugin reliability over last x days and makes recommendations based on crash data and source code
+    - mcp.json contains the MCP config used for the demo, redacted of course :)
+    - MCP config goes under .vscode/mcp.json and the agents go under .github/agents/*
 - dataverse-bulkload contains a utility to upload lots of data to Dataverse for demo purposes. It is set to the shape of the entities stored in the solution file attached.
 - plugins-source contians the source code for the two plugins used in the demo. They are also compiled into the solution package.
 - solution contains an unmanaged solution using the entities shown in the demo
